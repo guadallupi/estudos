@@ -1,0 +1,13 @@
+const listaDeTrabalhadores = ["Lucy", "Any", "Paul", "Marc"] //length 4
+
+console.log("A empresa fez uma festa e chamou os trabalhadores:", listaDeTrabalhadores)
+console.log("Quantos trabalhadores foram chamados?", listaDeTrabalhadores.length)
+
+//1. Lucy
+// 2. Any
+// 3. Paul
+// 4. Marc
+
+console.log("Trabalhador número 1:" , listaDeTrabalhadores [0])  //contagem: 0, 1, 2, 3
+console.log("Trabalhador número 4:" , listaDeTrabalhadores[listaDeTrabalhadores.length - 1])
+
