@@ -8,6 +8,19 @@ console.log("Quantos trabalhadores foram chamados?", listaDeTrabalhadores.length
 // 3. Paul
 // 4. Marc
 
-console.log("Trabalhador número 1:" , listaDeTrabalhadores [0])  //contagem: 0, 1, 2, 3
-console.log("Trabalhador número 4:" , listaDeTrabalhadores[listaDeTrabalhadores.length - 1])
+console.log("Trabalhador número 1: " , listaDeTrabalhadores [0])  //contagem: 0, 1, 2, 3
+console.log("Trabalhador número 4: " , listaDeTrabalhadores[listaDeTrabalhadores.length - 1])
 
+//Saber o índice do Paul no Array e na lista
+
+const indicePaul = listaDeTrabalhadores.indexOf(Paul) // indexOf: saber a posição de um array
+
+console.log("Paul está em qual índice do nosso array?", indicePaul) //Posição Paul no Array (0, 1, 2, 3)
+
+console.log("Paul está em qual número da lista?", indicePaul + 1) //Posição do Paul na lista (1, 2, 3, 4)
+
+//Arrays para outras variáveis
+
+const arrayQualquer = ["Ana", true, 30, {valor1: 10, valor2: 40}]
+
+console.log(arrayQualquer) 
