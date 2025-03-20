@@ -1,3 +1,13 @@
+const array1 = ["a", "b", "c"];
+
+array1.forEach((element) => console.log(element));
+
+// Expected output: "a"
+// Expected output: "b"
+// Expected output: "c"
+
+
+
 const notasFinais = [            //Uso do Array
   {nome: "Ana", nota: 4}
   {nome: "Murilo", nota:8}
